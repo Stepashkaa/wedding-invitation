@@ -1,0 +1,12 @@
+{
+  "name": "oleg-anastasia-wedding-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Статическое свадебное приглашение Олега и Анастасии",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test scripts/core.test.cjs",
+    "check": "node --check app.js && node --check core.js && node --check config.js && node --test scripts/core.test.cjs"
+  },
+  "engines": { "node": ">=18" }
+}

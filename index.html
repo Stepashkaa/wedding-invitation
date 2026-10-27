@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#edf0e5">
+  <meta name="description" content="Олег и Анастасия приглашают вас на свадьбу 2 июля 2027 года. Разделите с нами наш счастливый день.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Олег & Анастасия — мы женимся!">
+  <meta property="og:description" content="2 июля 2027 · Ульяновск. Один день. Одна любовь. Все самые близкие рядом.">
+  <meta property="og:locale" content="ru_RU">
+  <title>Олег & Анастасия — 02.07.2027</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/cormorant-normal-400.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="core.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#invitation">Перейти к приглашению</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="monogram" href="#home" aria-label="Олег и Анастасия, начало"><span data-bind="groomInitial">О</span><i>&</i><span data-bind="brideInitial">А</span><span class="monogram-dot">.</span></a>
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <a href="#date">Наш день</a><a href="#program">Программа</a><a href="#dresscode">Дресс-код</a>
+    </nav>
+    <a class="header-rsvp" href="#rsvp">Буду с вами <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Открыть меню"><span></span><span></span></button>
+  </header>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="Мобильная навигация" hidden>
+    <a href="#invitation">Приглашение</a><a href="#date">Наш день</a><a href="#program">Программа</a><a href="#location">Место встречи</a><a href="#dresscode">Дресс-код</a><a href="#rsvp">Ответить на приглашение</a>
+  </nav>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-topline"><span>ПРИГЛАШЕНИЕ НА СВАДЬБУ</span><span><span data-bind="city">Ульяновск</span> · <span data-bind="year">2027</span></span></div>
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow hero-enter">У каждой любви — своя история</p>
+          <h1 id="hero-title" class="hero-title hero-enter"><span data-bind="groom">Олег</span><span class="name-second"><i>&</i> <span data-bind="bride">Анастасия</span></span></h1>
+          <div class="hero-description hero-enter"><span class="fine-line" aria-hidden="true"></span><p>А у нашей начинается<br>новая, самая красивая глава.</p></div>
+          <div class="hero-date hero-enter"><span data-bind="day">02</span><b aria-hidden="true">/</b><span data-bind="month">07</span><b aria-hidden="true">/</b><span data-bind="year">2027</span></div>
+          <a href="#rsvp" class="button hero-enter">Разделить этот день <span aria-hidden="true">↗</span></a>
+          <p class="hero-footnote hero-enter">Один день. Одна любовь. Вы рядом.</p>
+        </div>
+        <div class="hero-visual hero-enter">
+          <div class="arch-outline" aria-hidden="true"></div>
+          <button class="couple-photo photo-zoom" type="button" data-lightbox="assets/images/couple.webp" data-caption="Олег и Анастасия" aria-label="Увеличить фотографию Олега и Анастасии">
+            <img src="assets/images/couple.webp" srcset="assets/images/couple-small.webp 640w, assets/images/couple.webp 1536w" sizes="(max-width: 760px) 86vw, 43vw" width="1536" height="2048" alt="Олег и Анастасия вместе под узорчатым куполом" fetchpriority="high">
+            <span class="photo-hint" aria-hidden="true">Наше любимое «вместе» <span>↗</span></span>
+          </button>
+          <div class="love-seal" aria-hidden="true"><span>ТЫ + Я</span><svg viewBox="0 0 40 32"><path d="M20 29S3 19 3 10C3 1 16 0 20 9 24 0 37 1 37 10 37 19 20 29 20 29Z"/></svg><span>И НАВСЕГДА</span></div>
+          <span class="vertical-caption" aria-hidden="true">THE BEGINNING OF FOREVER</span>
+        </div>
+      </div>
+      <div class="hero-bottom"><a href="#invitation"><span class="scroll-line" aria-hidden="true"></span>Листайте нашу историю</a><span>С любовью, для вас</span></div>
+    </section>
+
+    <section class="invitation section-space" id="invitation" aria-labelledby="invitation-title">
+      <div class="invitation-flower reveal"><img src="assets/images/flowers.webp" width="1680" height="1119" alt="Нежные белые каллы" loading="lazy"><span class="small-caption">Красота — в простых мгновениях</span></div>
+      <div class="invitation-copy reveal">
+        <p class="eyebrow">01 / Самое важное</p>
+        <h2 id="invitation-title">Дорогие и <em>любимые!</em></h2>
+        <p class="lead">Есть дни, которые меняют всё.<br>И люди, без которых эти дни<br>невозможно представить.</p>
+        <p>Мы женимся и очень хотим, чтобы вы были рядом. В этот день мы скажем друг другу главное «да» — и разделим радость с теми, кто дорог нашему сердцу.</p>
+        <p>Приглашаем вас стать частью нашей истории. Пусть этот день будет наполнен объятиями, искренними улыбками и вашей любовью.</p>
+        <div class="signature"><span data-bind="groom">Олег</span> <i>&</i> <span data-bind="bride">Анастасия</span><svg viewBox="0 0 100 26" aria-hidden="true"><path d="M3 17Q32 3 59 14T97 10M55 15C38 3 48 0 55 6 63-3 72 4 55 15"/></svg></div>
+      </div>
+    </section>
+
+    <section class="date-section section-space" id="date" aria-labelledby="date-title">
+      <div class="date-intro reveal"><p class="eyebrow">02 / Сохраните дату</p><h2 id="date-title">Наш день<br>в <em>календаре.</em></h2><p>Пусть этот летний день<br>станет ещё одним тёплым<br>воспоминанием для всех нас.</p><button class="text-link light-link" type="button" id="calendar-download">Добавить в календарь <span aria-hidden="true">↗</span></button></div>
+      <div class="calendar-wrapper reveal"><p class="calendar-month" id="calendar-month">Июль <em>2027</em></p><div class="calendar" id="calendar" role="table" aria-label="Июль 2027"></div><p class="calendar-note"><span class="tiny-heart" aria-hidden="true">♡</span> <span data-bind="fullDate">Пятница, 2 июля 2027</span></p></div>
+      <div class="countdown-wrap reveal"><span class="countdown-label" id="countdown-label">До нашего «да» осталось</span><div class="countdown" role="timer" aria-label="Обратный отсчёт до свадьбы"><div><strong id="count-days">—</strong><span>дней</span></div><i>:</i><div><strong id="count-hours">—</strong><span>часов</span></div><i>:</i><div><strong id="count-minutes">—</strong><span>минут</span></div><i>:</i><div><strong id="count-seconds">—</strong><span>секунд</span></div></div></div>
+    </section>
+
+    <section class="program section-space" id="program" aria-labelledby="program-title">
+      <div class="section-heading reveal"><p class="eyebrow">03 / Мгновения счастья</p><h2 id="program-title">Этот день — <em>по любви.</em></h2><p>Немного планов, много чувств.<br>Всё, что нужно знать о нашем празднике.</p></div>
+      <ol class="timeline" id="timeline"></ol>
+      <p class="program-afterword reveal">А самое прекрасное случится между строчек.</p>
+    </section>
+
+    <section class="locations section-space" id="location" aria-labelledby="location-title">
+      <div class="location-title reveal"><p class="eyebrow">04 / Места, которые станут особенными</p><h2 id="location-title">Увидимся <em>здесь.</em></h2></div>
+      <div class="location-grid">
+        <article class="venue reveal"><div class="venue-top"><span class="eyebrow">Церемония</span><span class="venue-time" data-bind="ceremony.time">13:30</span></div><svg class="venue-illustration" viewBox="0 0 300 125" aria-hidden="true"><path d="M40 113H260M58 109V46H242V109M48 46L150 10 252 46ZM75 54V99M89 54V99M211 54V99M225 54V99M114 109V67Q150 27 186 67V109M129 109V75Q150 52 171 75V109M150 69V109M48 113V121H252V113M115 30H185"/><path d="M13 111V68M13 91C-3 84 4 65 13 68 23 55 33 70 27 81 29 91 19 97 13 91M282 111V68M282 91C267 84 272 65 282 68 292 55 302 70 296 81 298 91 288 97 282 91"/></svg><h3 data-bind="ceremony.name">ЗАГС Ленинского района</h3><p data-bind="ceremony.address">ул. Гимова, 3, Ульяновск</p><a id="ceremony-map" href="https://yandex.ru/maps/?text=ЗАГС%20Гимова%203%20Ульяновск" class="text-link" target="_blank" rel="noopener noreferrer">Найти на карте <span aria-hidden="true">↗</span></a></article>
+        <article class="venue venue-warm reveal"><div class="venue-top"><span class="eyebrow">Праздничный ужин</span><span class="venue-time" data-bind="reception.time">16:00</span></div><svg class="venue-illustration" viewBox="0 0 300 125" aria-hidden="true"><path d="M15 113H285M77 113V62L151 17 225 62V113M65 67L151 8 237 67M110 113V73H190V113M145 74V113M155 74V113M110 74L190 113M190 74L110 113M139 43H163V58H139ZM49 113V45M49 83C16 82 20 49 35 48 27 22 59 11 64 40 83 42 81 74 49 83M261 113V58M261 90C238 87 239 66 250 62 247 42 269 39 275 60 290 72 279 90 261 90"/><path d="M82 13Q150 45 220 13M101 21V31M125 28V38M151 31V41M177 28V38M201 21V31"/></svg><h3 data-bind="reception.name">Хутор «Своя Ферма»</h3><p data-bind="reception.address">Праздничный ужин в окружении природы</p><a id="reception-map" href="https://yandex.ru/maps/?text=Хутор%20Своя%20Ферма%20Ульяновская%20область" class="text-link" target="_blank" rel="noopener noreferrer">Найти на карте <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="dresscode section-space" id="dresscode" aria-labelledby="dresscode-title">
+      <div class="section-heading reveal"><p class="eyebrow">05 / Вдохновение для вашего образа</p><h2 id="dresscode-title">В оттенках <em>природы.</em></h2><p>Нам будет приятно, если вы поддержите палитру праздника.<br>Спокойные цвета, любимые силуэты и немного вашего характера.</p></div>
+      <div class="palette reveal" aria-label="Цветовая палитра свадьбы"><div><span style="--swatch:#9b9879"></span><p>Оливковый</p></div><div><span style="--swatch:#4d342d"></span><p>Шоколадный</p></div><div><span style="--swatch:#ddccb7"></span><p>Бежевый</p></div><div><span style="--swatch:#4f5a3f"></span><p>Лесной</p></div><div><span style="--swatch:#6b4a33"></span><p>Какао</p></div></div>
+      <div class="style-grid">
+        <article class="style-card reveal"><button class="outfit-photo photo-zoom" type="button" data-lightbox="assets/images/dress-women.webp" data-caption="Для неё · вдохновение для образа" aria-label="Увеличить подборку женских образов"><img src="assets/images/dress-women.webp" alt="Платья в оливковых, шоколадных и бежевых оттенках" width="675" height="1200" loading="lazy"><span class="zoom-label" aria-hidden="true">Рассмотреть образы ↗</span></button><div class="style-copy"><span class="eyebrow">Для неё</span><h3>Мягкие линии.<br><em>Лёгкое настроение.</em></h3><p>Платье, брючный костюм или любимый наряд. Сатин, шёлк, струящиеся ткани и природные оттенки — выбирайте то, в чём чувствуете себя собой.</p></div></article>
+        <article class="style-card style-card-reverse reveal"><button class="outfit-photo photo-zoom" type="button" data-lightbox="assets/images/dress-men.webp" data-caption="Для него · вдохновение для образа" aria-label="Увеличить подборку мужских образов"><img src="assets/images/dress-men.webp" alt="Мужские костюмы в природных бежевых, зелёных и коричневых оттенках" width="675" height="1200" loading="lazy"><span class="zoom-label" aria-hidden="true">Рассмотреть образы ↗</span></button><div class="style-copy"><span class="eyebrow">Для него</span><h3>Свободно.<br><em>Со вкусом.</em></h3><p>Костюм, пиджак с брюками или спокойный кежуал. Оливковый, бежевый, шоколадный — с кремовой или белой рубашкой и удобной обувью.</p></div></article>
+      </div>
+      <p class="white-note reveal"><span aria-hidden="true">♡</span> А белое платье в этот день оставим невесте.</p>
+      <details class="moodboard reveal"><summary>Больше вдохновения: цвета и фактуры <span aria-hidden="true">+</span></summary><div class="moodboard-grid"><button class="photo-zoom" type="button" data-lightbox="assets/images/mood-colors.webp" data-caption="Олива, орех и кремовый кварц" aria-label="Увеличить палитру материалов"><img src="assets/images/mood-colors.webp" width="511" height="747" alt="Мудборд: оливковый, ореховый и кремовый оттенки" loading="lazy"></button><button class="photo-zoom" type="button" data-lightbox="assets/images/mood-textures.webp" data-caption="Эвкалипт, камень и дерево" aria-label="Увеличить подборку фактур"><img src="assets/images/mood-textures.webp" width="1200" height="1797" alt="Мудборд: эвкалипт, зелёный камень и тёмное дерево" loading="lazy"></button><div><p class="eyebrow">Наше настроение</p><h3>Естественно.<br>Тепло.<br><em>По-настоящему.</em></h3><p>Листва, тёплое дерево и мягкие кремовые оттенки. Маленькие детали, которые складываются в большую любовь.</p></div></div></details>
+    </section>
+
+    <section class="details-section section-space" id="details" aria-labelledby="details-title">
+      <div class="details-heading reveal"><p class="eyebrow">06 / С заботой о вас</p><h2 id="details-title">Маленькие<br><em>пожелания.</em></h2><span class="drawn-heart" aria-hidden="true">♡</span></div>
+      <div class="wishes reveal"><details open><summary>Ваше присутствие — лучший подарок <span aria-hidden="true">+</span></summary><p>Самое ценное для нас — провести этот день с вами. Привезите с собой хорошее настроение, тёплые объятия и готовность танцевать.</p></details><details><summary>Красиво — и удобно <span aria-hidden="true">+</span></summary><p>Впереди насыщенный день и праздник за городом. Выбирайте удобную обувь и захватите что-нибудь на плечи для прохладного вечера.</p></details><details><summary>Чтобы всем было хорошо <span aria-hidden="true">+</span></summary><p>Если у вас есть пищевые аллергии, особенности питания или другие пожелания, расскажите о них в анкете. Мы постараемся всё учесть.</p></details></div>
+    </section>
+
+    <section class="rsvp-section section-space" id="rsvp" aria-labelledby="rsvp-title">
+      <div class="rsvp-intro reveal"><p class="eyebrow">07 / Очень ждём ответа</p><h2 id="rsvp-title">Вы будете<br><em>с нами?</em></h2><p>Пожалуйста, ответьте до <strong data-bind="replyDate">1 июня 2027</strong>, чтобы мы подготовили для вас место за праздничным столом.</p><div class="rsvp-flower"><img src="assets/images/flowers-small.webp" width="640" height="426" alt="Белые каллы — цветочный акцент праздника" loading="lazy"><span>with love</span></div></div>
+      <form id="rsvp-form" class="rsvp-form reveal" action="#rsvp" method="get">
+        <label for="guest-name">Ваше имя и фамилия <span aria-hidden="true">*</span></label><input id="guest-name" name="name" placeholder="Как к вам обращаться?" autocomplete="name" maxlength="120" required>
+        <label for="guest-phone">Телефон <span class="optional">необязательно</span></label><input id="guest-phone" type="tel" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" maxlength="35">
+        <fieldset><legend>Получится прийти? <span aria-hidden="true">*</span></legend><div class="radio-options"><label class="choice"><input type="radio" name="attendance" value="yes" required><span>С радостью буду</span><i aria-hidden="true">♡</i></label><label class="choice"><input type="radio" name="attendance" value="no"><span>Не смогу прийти</span></label></div></fieldset>
+        <div id="attendance-fields" hidden><label for="guests">Сколько вас будет, включая вас?</label><select id="guests" name="guests" disabled><option value="1">1 человек</option><option value="2">2 человека</option><option value="3">3 человека</option><option value="4">4 человека</option><option value="5">5 человек</option><option value="6">6 и больше — уточню в пожеланиях</option></select><div id="companions-field" hidden><label for="companions">Имена тех, кто будет с вами</label><input id="companions" name="companions" maxlength="300" placeholder="Чтобы никого не упустить" disabled></div><fieldset><legend>Что предпочитаете из напитков?</legend><div class="drink-options"><label><input type="checkbox" name="drinks" value="Шампанское" disabled><span>Шампанское</span></label><label><input type="checkbox" name="drinks" value="Белое вино" disabled><span>Белое вино</span></label><label><input type="checkbox" name="drinks" value="Красное вино" disabled><span>Красное вино</span></label><label><input type="checkbox" name="drinks" value="Крепкие напитки" disabled><span>Крепкие напитки</span></label><label><input type="checkbox" name="drinks" value="Без алкоголя" disabled><span>Без алкоголя</span></label></div></fieldset></div>
+        <label for="wishes">Пожелания и особенности питания</label><textarea id="wishes" name="wishes" rows="3" maxlength="1800" placeholder="Аллергии, любимое блюдо или несколько тёплых слов…"></textarea>
+        <div class="honeypot" aria-hidden="true"><label for="website">Оставьте пустым</label><input type="text" id="website" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+        <p class="form-note" id="form-note">Подготовим сообщение — останется отправить его нам в привычном мессенджере.</p><button class="button button-wide" type="submit" id="submit-rsvp" disabled>Подготовить ответ <span aria-hidden="true">↗</span></button><p class="privacy-note" data-bind="rsvp.privacyText">Ответ нужен только для подготовки нашего праздника.</p><p id="form-status" class="form-status" role="status"></p><button type="button" id="fallback-response" class="text-link" hidden>Подготовить сообщение вручную ↗</button>
+        <noscript><p>Чтобы подготовить ответ, включите JavaScript или напишите нам в привычном мессенджере.</p></noscript>
+      </form>
+    </section>
+
+    <footer class="site-footer"><p class="eyebrow reveal">Самое важное — быть вместе</p><p class="footer-title reveal">До встречи<br>в нашем <em>счастливом дне.</em></p><a class="footer-names" href="#home"><span data-bind="groom">Олег</span> <i>&</i> <span data-bind="bride">Анастасия</span></a><div class="footer-bottom"><span data-bind="numericDate">02.07.2027</span><span>С любовью, <span data-bind="family">будущая семья Носовых</span></span><a href="#home">Наверх ↑</a></div></footer>
+  </main>
+
+  <dialog id="lightbox" class="lightbox" aria-label="Просмотр фотографии"><button class="dialog-close" type="button" data-close-dialog aria-label="Закрыть фотографию">×</button><img id="lightbox-image" src="assets/images/couple-small.webp" alt=""><p id="lightbox-caption"></p></dialog>
+  <dialog id="reply-dialog" class="reply-dialog" aria-labelledby="reply-title"><button class="dialog-close" type="button" data-close-dialog aria-label="Закрыть ответ">×</button><span class="eyebrow">Почти готово</span><h2 id="reply-title">Ваш ответ —<br><em>с любовью.</em></h2><p>Скопируйте сообщение и отправьте его Олегу или Анастасии. Пока вы этого не сделаете, мы не получим ответ.</p><label for="reply-text" class="sr-only">Текст вашего ответа</label><textarea id="reply-text" readonly rows="9"></textarea><button class="button button-wide" id="copy-response" type="button">Скопировать ответ <span aria-hidden="true">↗</span></button><button class="text-link" id="share-response" type="button" hidden>Отправить через… ↗</button><p id="copy-status" role="status"></p></dialog>
+  <div class="toast" id="toast" role="status"></div>
+</body>
+</html>
